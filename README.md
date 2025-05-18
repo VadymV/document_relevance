@@ -36,9 +36,9 @@ with the prepared data for benchmarking will be created in the project_path.
 
 - All settings are defined in ``configuration.yaml``. The folder ``data_prepared_for_benchmark``
 must be copied to ``work_dir`` in ``configuration.yaml`` or a symbolic link must be created.
-- Run the experiments:``uv run python run_experiments.py --eeg_model=EM --language_model=LM --experiment=EXPERIMENT``, where EM, LM, EXPERIMENT is the desired parameters. See help for more details.
+- Run the experiments:``uv run python run_experiments.py --eeg_model=EM --language_model=LM --experiment=EXPERIMENT``, where EM, LM, EXPERIMENT are the desired parameters. See help for more details.
 
-## Generate figures
+## Generate LaTeX tables and figures
 - ``uv run python generate_latex_tables.py`` will generate Tables 1-4 in the paper.
 - ``uv run python generate_correleation_figures.py`` will generate figures 7 and 8 in the paper (+ Supplementary).
 - ``uv run python generate_erp_figures.py`` will generate Figure 3 in the paper.
