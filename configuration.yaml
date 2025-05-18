@@ -1,0 +1,20 @@
+work_dir: ""
+batch_size: 30
+dry_run: False
+seeds: 5
+users:
+  - "TRPB101"
+  - "TRPB102"
+  - "TRPB103"
+  - "TRPB105"
+  - "TRPB106"
+  - "TRPB107"
+  - "TRPB109"
+  - "TRPB110"
+  - "TRPB111"
+  - "TRPB112"
+  - "TRPB113"
+  - "TRPB114"
+  - "TRPB115"
+  - "TRPB116"
+  - "TRPB117"
